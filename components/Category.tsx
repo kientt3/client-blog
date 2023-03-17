@@ -2,7 +2,7 @@ import React from 'react'
 
 const Category = () => {
   return (
-    <section className='hidden md:block sticky top-20 bg-white'>
+    <section className='hidden h-fit  sticky top-20 bg-white md:block'>
       <h4 className='font-semibold'>Khám phá thêm những chủ đề mới</h4>
       <div className='flex flex-wrap items-center gap-x-2 gap-y-1 '>
         <a href='/' className='text-gray-400 text-sm px-2 py-1 border hover:underline'>#Javascript</a>

@@ -3,10 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   font-family: 'Inter', sans-serif;
-  height: 10000px;
 }
+
 .brand {
-font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
