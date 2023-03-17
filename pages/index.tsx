@@ -2,20 +2,26 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Post from '@/components/Post'
 import Category from '@/components/Category'
-
 export default function Home() {
   return (
     <>
 
-      {/* <section className='nexgen__hero py-24 bg-green-500 mb-16'>
+      <section className='nexgen__hero py-10 bg-green-500 mb-16'>
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="text-white">
-            <h1 className='text-7xl mb-3 font-semibold'>Discover more of what matters to you</h1>
-            <p className=' text-2xl'>Join and develop your skills</p>
+          <div className="text-white  flex flex-col justify-center items-start">
+            <h1 className='text-7xl mb-4 font-semibold'>Tham gia cùng nhau tìm hiểu công nghệ mới</h1>
+            <p className=' text-2xl mb-5'>Tham gia và phát triển kỹ năng của bạn</p>
+            <a href='/' className='p-4 rounded-full bg-black inline-block'>Bắt đầu tham gia</a>
           </div>
+         <div>
+          <Image src="/multitasking.png" width={700} height={700} alt="NexGen Join together to learn new technology"/>
+         </div>
+        </div> 
+        <div>
+   
         </div>
-      </section> */}
-      <section className='container grid grid-cols-1 lg:grid-cols-3 gap-14'>
+      </section>
+      <section className='container grid grid-cols-1 lg:grid-cols-3 gap-14 my-32'>
         <div className=' flex flex-col gap-y-12 col-span-2'>
           <Post />
           <Post />
